@@ -2,17 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: sans-serif; */
+    /* font-family: sans-serif;  */
 }
 body{
     line-height: 1.5;
 }
+p{
+    font-size: 19px;
+}
 header{
-    background-color: rgb(0, 0, 107);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 107);
     height: 100px;
     padding-top: 20px;
+    position:fixed;
+    width: 100%;
 }
+
  .logo{
     padding-left: 10px;
     cursor: pointer;
@@ -28,7 +34,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    
+       
 }
 .nav-links{
     display: flex;
@@ -44,10 +50,11 @@ header{
 }
 .nav-links a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(0, 0, 107);
 }
- a :hover{
-    color: #56595b;
+ a:hover{
+    color: #ffffff;
+    background-color: rgb(0, 0, 107);
 }
 .hero{
     height: 500px;
@@ -60,7 +67,7 @@ header{
     margin-top: 0px;
     
 }
-img{
+.hero img{
     width: 250px;
     border-radius: 50%;
     margin-left: 250px;
@@ -73,4 +80,62 @@ img{
     margin-right: 450px;
     list-style-type: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero1{
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: rgb(0, 0, 107);
+}
+.ul-about{
+    list-style-type: none;
+}
+.hero2{
+    background-color: rgb(0, 0, 107);
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;   
+}
+.hero h2{
+    padding-top: 5px;
+}
+.col img{
+    width:150px ;
+}
+
+.hero3{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 107);   
+}
+.hero3 h2{
+    padding-top: 5px;
+}
+.col img{
+    width:150px ;
+}
+.hero4{
+    height: 400px;
+    background-color: rgb(0, 0, 107);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.hero4 h2{
+    text-align: center;
+    color: #ffffff;
+}
+footer{
+    background-color: #ffffff;
+    height: 30px;
+    text-align: center;
 }
