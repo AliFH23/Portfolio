@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 70px;
+  font-family: sans-serif;
+}
+.hero {
+  min-height: 100vh; 
+  background: #001f5b;
+  color: white;
+}
+.section {
+  padding: 80px 0;
+}
+.skill-img {
+  width: 80px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.skill-img:hover {
+  transform: scale(1.1);
+}
+footer {
+  background: #f8f9fa;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .hero {
+    text-align: center;
+  }
+}
