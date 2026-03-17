@@ -9,7 +9,6 @@ body {
 }
 .hero {
   min-height: 100vh; 
-  background: #001f5b;
   color: white;
 }
 .section {
